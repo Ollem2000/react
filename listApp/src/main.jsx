@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 
 import './styles/global.css';
 
-import home from './pages/home'
+import { Home } from './pages/Home'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>
 )

@@ -1,10 +1,9 @@
 import './style.css';
 
-function home(){
+export function Home(){
 	return(
 		<div>
 			<p>teste</p>
 		</div>
 	)
 }
-export default home;
