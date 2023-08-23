@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './style.css';
 
 import { Card } from '../../components/Card'
@@ -17,7 +17,11 @@ export function Home(){
 			})
 		}
 			setStudents(prevState => [...prevState, newStudent]);
-	}
+	};
+	
+	useEffect(() => {
+		console.log("Um aluno foi adicionado!");
+	}, [students]);
 	
 	return(
 		<div>
