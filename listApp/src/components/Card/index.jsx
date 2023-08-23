@@ -4,7 +4,7 @@ export function Card(card){
 	return(
 		<div>
 			<strong>{card.name}</strong>
-			<small>{card.city}</small>
+			<small>{card.time}</small>
 		</div>
 	)
 }
